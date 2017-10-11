@@ -50,17 +50,18 @@
  
  Tabel **travel**
  
- | id_travel    | nama_supir        | no_telp         | alamat              |
- |  :---        | :---              | :---            | :---                |
- | 1            | Eko               | 0813284343433   | Jl.cisaranten       |
- | 2            | Budi              | 0918234483343   | Jl. Melawai         |
- | 3            | Adi Putra         | 0900934483343   | Jl. panglima polim  |
+ | id_travel    | nama_supir        | no_telp         | alamat              | no_polisi     |
+ |  :---        | :---              | :---            | :---                | :---          |
+ | 1            | Eko               | 0813284343433   | Jl.cisaranten       | D 2524 ZZC    |
+ | 2            | Budi              | 0918234483343   | Jl. Melawai         | B 4343 KDF    |
+ | 3            | Adi Putra         | 0900934483343   | Jl. panglima polim  | B 2343 DKJ    |
  
  ## Cara Mengerjakan
  
  * Fork Repository ini
  * Untuk Soal no 1 dan 2 **Kerjakan di kertas polio dikumpulkan besok**
- * Untuk Soal no 3 dan 4 kerjakan di repository ini paling lambat di push **tgl 11-okt-2017 jam 15:00**
+ * Untuk Soal no 3 dan 4 kerjakan di repository ini paling lambat di push **tgl 11-okt-2017 jam 15:00** (sertakan file backup database)
+ * nama database di berinama sesuai nama anda
  
  
   
