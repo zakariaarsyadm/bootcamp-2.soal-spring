@@ -5,10 +5,14 @@
  */
 package com.tabeldata.soal4.spring.repository;
 
+import com.tabeldata.soal4.spring.model.Tiket;
+import java.io.Serializable;
+import org.springframework.data.repository.CrudRepository;
+
 /**
  *
  * @author namhee
  */
-public interface TiketRepository {
+public interface TiketRepository extends CrudRepository<Tiket, String>{
     
 }
