@@ -22,10 +22,10 @@
   - @Table
   - @Column
   - @Id
-  - @OneToOne (berikan contoh kasusnya)
-  - @OneToMany (berikan contoh kasusnya)
-  - @ManyToOne (berikan contoh kasusnya)
-  - @ManyToMany (berikan contoh kasusnya)
+  - @OneToOne (berikan contoh kasusnya **bukan koding**)
+  - @OneToMany (berikan contoh kasusnya **bukan koding**)
+  - @ManyToOne (berikan contoh kasusnya **bukan koding**)
+  - @ManyToMany (berikan contoh kasusnya **bukan koding**)
   - SessionFactory dan Session
  
  3. Buat program bagaimana cara meload aplikasi spring dengan menggunakan **Java Configuration / Annotation** dan Buat sebuah bean dengan tipe data java.lang.Integer yang di beri nilai 20 kemudian buat sebuah kelas baru dengan nama `UmurSaya` dalam package `com.tabeldata.soal.spring` kemudian 
