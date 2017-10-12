@@ -7,6 +7,7 @@ import com.tabeldata.soal4.spring.repository.PenumpangRepository;
 import com.tabeldata.soal4.spring.repository.TiketRepository;
 import com.tabeldata.soal4.spring.repository.TravelRepository;
 import java.sql.Date;
+import java.sql.Timestamp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -28,9 +29,9 @@ public class Application {
         Travel travel3 = travelRepository.save(new Travel(3, "Adi Putra", "0900934483343", "Jl. panglima polim", "B 2343 DKJ"));
 
         TiketRepository tiketRepository = applicationContext.getBean(TiketRepository.class);
-        tiketRepository.save(new Tiket(1, Date.valueOf("2017-10-20"), penumpang1, travel1));
-        tiketRepository.save(new Tiket(2, Date.valueOf("2017-10-20"), penumpang2, travel3));
-        tiketRepository.save(new Tiket(3, Date.valueOf("2017-10-20"), penumpang3, travel2));
+        tiketRepository.save(new Tiket(1, Timestamp.valueOf("2017-10-20 10:00:00"), penumpang1, travel1));
+        tiketRepository.save(new Tiket(2, Timestamp.valueOf("2017-10-20 10:00:00"), penumpang2, travel3));
+        tiketRepository.save(new Tiket(3, Timestamp.valueOf("2017-10-20 10:00:00"), penumpang3, travel2));
 
     }
 }

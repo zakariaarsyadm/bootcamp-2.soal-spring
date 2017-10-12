@@ -13,6 +13,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author namhee
  */
-public interface TiketRepository extends CrudRepository<Tiket, String>{
+public interface TiketRepository extends CrudRepository<Tiket, Integer>{
     
 }

@@ -13,6 +13,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author namhee
  */
-public interface PenumpangRepository extends CrudRepository<Penumpang, String> {
+public interface PenumpangRepository extends CrudRepository<Penumpang, Integer> {
     
 }

@@ -13,6 +13,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author namhee
  */
-public interface TravelRepository extends CrudRepository<Travel, String>{
+public interface TravelRepository extends CrudRepository<Travel, Integer>{
     
 }

@@ -5,6 +5,7 @@
  */
 package com.tabeldata.soal4.spring.model;
 
+import java.sql.Timestamp;
 import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -33,7 +34,7 @@ public class Tiket {
     private Integer id;
 
     @Column(name = "jadwal", nullable = false)
-    private Date jadwal;
+    private Timestamp jadwal;
 
     @OneToOne
     @JoinColumn(name = "id_penumpang", nullable = false)
